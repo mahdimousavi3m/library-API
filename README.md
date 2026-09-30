@@ -60,4 +60,48 @@ The API handles books, users, and rental records, while storing application data
 
 ## Data Structure
 
-The application uses three m
+The application uses three main data collections:
+
+```json
+{
+  "users": [],
+  "books": [],
+  "rents": []
+}
+```
+
+* `users` — stores registered users
+* `books` — stores library books and their availability
+* `rents` — stores active rental records
+
+## API Endpoints
+
+### Books
+
+| Method | Endpoint                | Description    |
+| ------ | ----------------------- | -------------- |
+| POST   | `/api/books`            | Add a new book |
+| GET    | `/api/books`            | Get all books  |
+| PUT    | `/api/books?id=BOOK_ID` | Update a book  |
+| DELETE | `/api/books?id=BOOK_ID` | Delete a book  |
+
+### Users
+
+| Method | Endpoint                        | Description             |
+| ------ | ------------------------------- | ----------------------- |
+| POST   | `/api/users`                    | Register a new user     |
+| PUT    | `/api/users?id=USER_ID`         | Update user data        |
+| PUT    | `/api/users/upgrade?id=USER_ID` | Upgrade a user to admin |
+
+### Rentals
+
+| Method | Endpoint            | Description          |
+| ------ | ------------------- | -------------------- |
+| POST   | `/api/books/rent`   | Rent a book          |
+| POST   | `/api/books/return` | Return a rented book |
+
+## Purpose
+
+This project was built to practice backend development and understand how REST APIs work at a lower level using Node.js core modules.
+
+The project focuses on understanding HTTP communication, routing, request and response handling, data validation, file-based persistence, and the relationships between users, books, and rental records.
