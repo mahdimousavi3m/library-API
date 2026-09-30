@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "mehdi",
+      "email": "medhiMyEmail@gmail.com",
+      "crime": 50000,
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "userName": "ali",
+      "email": "aliMyEmail@gmail.com",
+      "crime": 0,
+      "role": "ADMIN"
+    },
+    {
+      "id": "3",
+      "userName": "aref",
+      "email": "arefMyEmail@gmail.com",
+      "crime": 10000,
+      "role": "ADMIN"
+    },
+    {
+      "id": "afa3032a-3af7-4f2f-bb9b-9df2ee2c4596",
+      "userName": "mmd",
+      "email": "mmdMyEmail@gmail.com",
+      "criem": 0,
+      "role": "USER"
+    },
+    {
+      "id": "fb9b4fab-7eac-4318-8d50-1a5ca21e71ed",
+      "userName": "mona",
+      "email": "monaMyEmail@gmail.com",
+      "criem": 0,
+      "role": "ADMIN",
+      "crime": 10000
+    },
+    {
+      "id": "2973ab9e-0b9a-4b53-802d-ad3cacb972dc",
+      "userName": "milad",
+      "email": "miladMyEmail@gmail.com",
+      "criem": 0,
+      "role": "USER"
+    },
+    {
+      "id": "880f16b1-2201-46da-b7a9-2119791af151",
+      "userName": "yara",
+      "email": "yaraMyEmail@gmail.com",
+      "criem": 0,
+      "role": "USER"
+    }
+  ],
+  "books": [
+    {
+      "id": "48eed0dd-bb61-4470-a1b3-fec7fdcafefc",
+      "author": "J. K. Rowling",
+      "name": "harry potter",
+      "free": 1
+    },
+    {
+      "id": "f5e712d8-208a-4364-8e3c-6850f984fdf5",
+      "author": "J.R.R Tolkien",
+      "name": "The Hobbit",
+      "free": 1
+    },
+    {
+      "id": "9d760308-3359-4c44-b67a-252b7802ff33",
+      "author": "J.R.R Tolkien",
+      "name": "The Silmarillion",
+      "free": 1
+    },
+    {
+      "id": "f9a33c02-2054-4785-9ec5-5519349c0d92",
+      "author": "J.R.R Tolkien",
+      "name": "The Return of the King",
+      "free": 0
+    },
+    {
+      "id": "9741d220-badb-445a-adce-d9ef419b06f1",
+      "author": "J.R.R Tolkien",
+      "name": "he Fellowship of the Ring",
+      "free": 1
+    },
+    {
+      "id": "3e9387b1-25a9-42f2-925d-c855e27c5c1b",
+      "author": "J.R.R Tolkien",
+      "name": "The Two Towers",
+      "free": 0
+    }
+  ],
+  "rents": [
+    {
+      "id": "e542df8d-1d4f-447c-8636-337fa7fc9fe6",
+      "userID": "afa3032a-3af7-4f2f-bb9b-9df2ee2c4596",
+      "bookID": "3e9387b1-25a9-42f2-925d-c855e27c5c1b"
+    },
+    {
+      "id": "e1aa10f2-8c8a-490a-af64-2b2eae396c9c",
+      "userID": "afa3032a-3af7-4f2f-bb9b-9df2ee2c4596",
+      "bookID": "f9a33c02-2054-4785-9ec5-5519349c0d92"
+    }
+  ]
+}
